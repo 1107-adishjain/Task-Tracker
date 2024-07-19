@@ -5,7 +5,6 @@ import 'task.dart';
 
 class TaskData extends ChangeNotifier {
   final List<Task> _tasks = [
-    
   ];
 
   UnmodifiableListView<Task> get tasks{   //getter which doesnt allows u to use tasks everywhere!

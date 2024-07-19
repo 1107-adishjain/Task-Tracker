@@ -24,7 +24,6 @@ class TaskList extends StatelessWidget {
               },
             );
           },
-          // taskdata.deletetask(taskdata.tasks[index]);
           itemCount: taskdata.updatelength,
         );
       },
